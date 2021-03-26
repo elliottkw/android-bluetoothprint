@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 for(BluetoothDevice pairedDev:pairedDevice){
 
                     // My Bluetoth printer name is BTP_F09F1A
-                    if(pairedDev.getName().equals("BTP_F09F1A")){
+                    if(pairedDev.getName().equals("MTP-2")){
                         bluetoothDevice=pairedDev;
                         lblPrinterName.setText("Bluetooth Printer Attached: "+pairedDev.getName());
                         break;
